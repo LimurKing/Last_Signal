@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {capsuleSeats,countVotes,resolveWinner} from '../src/gameEngine.js';import {cards,validateCards} from '../src/cardDatabase.js';
+test('места, подсчёт голосов и ничья',()=>{assert.equal(capsuleSeats(6),4);assert.equal(capsuleSeats(9),5);assert.deepEqual(countVotes({a:'x',b:'y'},['x','y']).leaders,['x','y']);});
+test('победа и база карт валидны',()=>{validateCards();assert.ok(cards.professions.length>=24);const d={seats:2,required:1};assert.equal(resolveWinner([{id:'a',role:'Выживший'}],['a'],d,'standard').winner,'nobody');assert.equal(resolveWinner([{id:'a',role:'Выживший'}],['a'],{seats:1,required:1},'standard').winner,'survivors');});

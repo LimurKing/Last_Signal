@@ -1,0 +1,1268 @@
+{
+  "professions": [
+    {
+      "id": "professions-01",
+      "category": "professions",
+      "title": "Ветеринар",
+      "description": "Лечит животных. Уверен, что человек — просто слишком разговорчивая кошка.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-02",
+      "category": "professions",
+      "title": "Хирург",
+      "description": "Может провести сложную операцию, но не переносит вид собственной крови.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-03",
+      "category": "professions",
+      "title": "Программист",
+      "description": "Может написать систему управления убежищем, но не может заставить её работать с первого раза.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-04",
+      "category": "professions",
+      "title": "Инженер",
+      "description": "Чинит механизмы. Иногда после ремонта они приобретают новые, пугающие функции.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-05",
+      "category": "professions",
+      "title": "Повар",
+      "description": "Приготовит еду из трёх консервов и чужих надежд.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-06",
+      "category": "professions",
+      "title": "Психолог",
+      "description": "Психолог: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-07",
+      "category": "professions",
+      "title": "Фермер",
+      "description": "Фермер: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-08",
+      "category": "professions",
+      "title": "Охранник",
+      "description": "Охранник: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-09",
+      "category": "professions",
+      "title": "Учитель",
+      "description": "Сначала проведёт перекличку, потом разрешит паниковать.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-10",
+      "category": "professions",
+      "title": "Врач",
+      "description": "Врач: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-11",
+      "category": "professions",
+      "title": "Блогер",
+      "description": "Поднимет мораль команды, если найдёт интернет.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-12",
+      "category": "professions",
+      "title": "Бывший мошенник",
+      "description": "Бывший мошенник: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-13",
+      "category": "professions",
+      "title": "Механик",
+      "description": "Механик: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-14",
+      "category": "professions",
+      "title": "Актёр",
+      "description": "Актёр: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-15",
+      "category": "professions",
+      "title": "Швея",
+      "description": "Чинит одежду, снаряжение и иногда отношения.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-16",
+      "category": "professions",
+      "title": "Биолог",
+      "description": "Биолог: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-17",
+      "category": "professions",
+      "title": "Электрик",
+      "description": "Электрик: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-18",
+      "category": "professions",
+      "title": "Пилот",
+      "description": "Пилот: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-19",
+      "category": "professions",
+      "title": "Архивариус",
+      "description": "Архивариус: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-20",
+      "category": "professions",
+      "title": "Спасатель",
+      "description": "Спасатель: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-21",
+      "category": "professions",
+      "title": "Химик",
+      "description": "Химик: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-22",
+      "category": "professions",
+      "title": "Юрист",
+      "description": "Юрист: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-23",
+      "category": "professions",
+      "title": "Сантехник",
+      "description": "Сантехник: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "professions"
+      ]
+    },
+    {
+      "id": "professions-24",
+      "category": "professions",
+      "title": "Безработный из будущего",
+      "description": "Опыт выживания большой, трудовая книжка загадочная.",
+      "tags": [
+        "professions"
+      ]
+    }
+  ],
+  "personalities": [
+    {
+      "id": "personalities-01",
+      "category": "personalities",
+      "title": "Параноик",
+      "description": "Параноик: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-02",
+      "category": "personalities",
+      "title": "Оптимист",
+      "description": "Оптимист: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-03",
+      "category": "personalities",
+      "title": "Нарцисс",
+      "description": "Нарцисс: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-04",
+      "category": "personalities",
+      "title": "Тихоня",
+      "description": "Тихоня: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-05",
+      "category": "personalities",
+      "title": "Скандалист",
+      "description": "Скандалист: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-06",
+      "category": "personalities",
+      "title": "Торговец",
+      "description": "Торговец: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-07",
+      "category": "personalities",
+      "title": "Лгун",
+      "description": "Лгун: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-08",
+      "category": "personalities",
+      "title": "Паникёр",
+      "description": "Паникёр: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-09",
+      "category": "personalities",
+      "title": "Командир",
+      "description": "Командир: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-10",
+      "category": "personalities",
+      "title": "Философ",
+      "description": "Философ: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-11",
+      "category": "personalities",
+      "title": "Соня",
+      "description": "Соня: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-12",
+      "category": "personalities",
+      "title": "Зануда",
+      "description": "Зануда: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-13",
+      "category": "personalities",
+      "title": "Миротворец",
+      "description": "Миротворец: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-14",
+      "category": "personalities",
+      "title": "Азартный игрок",
+      "description": "Азартный игрок: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-15",
+      "category": "personalities",
+      "title": "Собиратель",
+      "description": "Собиратель: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-16",
+      "category": "personalities",
+      "title": "Романтик",
+      "description": "Романтик: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-17",
+      "category": "personalities",
+      "title": "Практик",
+      "description": "Практик: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-18",
+      "category": "personalities",
+      "title": "Мстительный",
+      "description": "Мстительный: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-19",
+      "category": "personalities",
+      "title": "Любопытный",
+      "description": "Любопытный: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    },
+    {
+      "id": "personalities-20",
+      "category": "personalities",
+      "title": "Невозмутимый",
+      "description": "Невозмутимый: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "personalities"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "skills-01",
+      "category": "skills",
+      "title": "Первая помощь",
+      "description": "Первая помощь: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-02",
+      "category": "skills",
+      "title": "Ремонт",
+      "description": "Ремонт: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-03",
+      "category": "skills",
+      "title": "Убеждение",
+      "description": "Убеждение: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-04",
+      "category": "skills",
+      "title": "Наблюдательность",
+      "description": "Наблюдательность: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-05",
+      "category": "skills",
+      "title": "Переговоры",
+      "description": "Переговоры: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-06",
+      "category": "skills",
+      "title": "Импровизация",
+      "description": "Импровизация: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-07",
+      "category": "skills",
+      "title": "Скрытность",
+      "description": "Скрытность: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-08",
+      "category": "skills",
+      "title": "Лидерство",
+      "description": "Лидерство: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-09",
+      "category": "skills",
+      "title": "Ориентирование",
+      "description": "Ориентирование: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-10",
+      "category": "skills",
+      "title": "Кулинария",
+      "description": "Кулинария: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-11",
+      "category": "skills",
+      "title": "Первая разведка",
+      "description": "Первая разведка: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-12",
+      "category": "skills",
+      "title": "Экономия ресурсов",
+      "description": "Экономия ресурсов: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-13",
+      "category": "skills",
+      "title": "Рукопашный бой",
+      "description": "Рукопашный бой: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-14",
+      "category": "skills",
+      "title": "Радиосвязь",
+      "description": "Радиосвязь: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-15",
+      "category": "skills",
+      "title": "Поиск воды",
+      "description": "Поиск воды: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-16",
+      "category": "skills",
+      "title": "Перевязка",
+      "description": "Перевязка: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-17",
+      "category": "skills",
+      "title": "Взлом",
+      "description": "Взлом: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-18",
+      "category": "skills",
+      "title": "Маскировка",
+      "description": "Маскировка: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-19",
+      "category": "skills",
+      "title": "Организация",
+      "description": "Организация: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    },
+    {
+      "id": "skills-20",
+      "category": "skills",
+      "title": "Чтение карт",
+      "description": "Чтение карт: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "skills"
+      ],
+      "effect": {
+        "type": "vote_bonus",
+        "uses": 1,
+        "description": "Один раз ваш голос приравнивается к двум."
+      }
+    }
+  ],
+  "baggage": [
+    {
+      "id": "baggage-01",
+      "category": "baggage",
+      "title": "Чемодан с кирпичами",
+      "description": "Чемодан с кирпичами: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-02",
+      "category": "baggage",
+      "title": "Аптечка без лекарств",
+      "description": "Аптечка без лекарств: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-03",
+      "category": "baggage",
+      "title": "Телефон с 1% заряда",
+      "description": "Телефон с 1% заряда: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-04",
+      "category": "baggage",
+      "title": "Дилдо",
+      "description": "Дилдо: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-05",
+      "category": "baggage",
+      "title": "Пачка лапши",
+      "description": "Пачка лапши: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-06",
+      "category": "baggage",
+      "title": "Фальшивый диплом",
+      "description": "Фальшивый диплом: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-07",
+      "category": "baggage",
+      "title": "Набор инструментов",
+      "description": "Набор инструментов: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-08",
+      "category": "baggage",
+      "title": "Неизвестные семена",
+      "description": "Неизвестные семена: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-09",
+      "category": "baggage",
+      "title": "Семейная фотография",
+      "description": "Семейная фотография: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-10",
+      "category": "baggage",
+      "title": "Подозрительная коробка",
+      "description": "Подозрительная коробка: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-11",
+      "category": "baggage",
+      "title": "Сломанный фонарь",
+      "description": "Сломанный фонарь: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-12",
+      "category": "baggage",
+      "title": "Банка огурцов",
+      "description": "Банка огурцов: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-13",
+      "category": "baggage",
+      "title": "Говорящий будильник",
+      "description": "Говорящий будильник: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-14",
+      "category": "baggage",
+      "title": "Пустой кошелёк",
+      "description": "Пустой кошелёк: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-15",
+      "category": "baggage",
+      "title": "Плед с единорогами",
+      "description": "Плед с единорогами: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-16",
+      "category": "baggage",
+      "title": "Коллекция пробок",
+      "description": "Коллекция пробок: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-17",
+      "category": "baggage",
+      "title": "Портативное радио",
+      "description": "Портативное радио: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-18",
+      "category": "baggage",
+      "title": "Три левых ботинка",
+      "description": "Три левых ботинка: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-19",
+      "category": "baggage",
+      "title": "Ключ без замка",
+      "description": "Ключ без замка: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-20",
+      "category": "baggage",
+      "title": "Складной стул",
+      "description": "Складной стул: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-21",
+      "category": "baggage",
+      "title": "Пакет земли",
+      "description": "Пакет земли: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-22",
+      "category": "baggage",
+      "title": "Игрушечный меч",
+      "description": "Игрушечный меч: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-23",
+      "category": "baggage",
+      "title": "Пыльный атлас",
+      "description": "Пыльный атлас: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    },
+    {
+      "id": "baggage-24",
+      "category": "baggage",
+      "title": "Запас батареек",
+      "description": "Запас батареек: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "baggage"
+      ]
+    }
+  ],
+  "secrets": [
+    {
+      "id": "secrets-01",
+      "category": "secrets",
+      "title": "Скрытая аллергия",
+      "description": "Скрытая аллергия: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-02",
+      "category": "secrets",
+      "title": "Вы работали на корпорацию, построившую убежище",
+      "description": "Вы работали на корпорацию, построившую убежище: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-03",
+      "category": "secrets",
+      "title": "Вы случайно сломали важное оборудование",
+      "description": "Вы случайно сломали важное оборудование: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-04",
+      "category": "secrets",
+      "title": "Вы скрываете полезный навык",
+      "description": "Вы скрываете полезный навык: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-05",
+      "category": "secrets",
+      "title": "У вас есть тайный запас еды",
+      "description": "У вас есть тайный запас еды: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-06",
+      "category": "secrets",
+      "title": "Вы знаете, откуда пришёл сигнал",
+      "description": "Вы знаете, откуда пришёл сигнал: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-07",
+      "category": "secrets",
+      "title": "Ваш диплом поддельный",
+      "description": "Ваш диплом поддельный: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-08",
+      "category": "secrets",
+      "title": "Вы предали бывшего работодателя",
+      "description": "Вы предали бывшего работодателя: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-09",
+      "category": "secrets",
+      "title": "Вы боитесь темноты",
+      "description": "Вы боитесь темноты: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-10",
+      "category": "secrets",
+      "title": "Вы однажды жили в лесу",
+      "description": "Вы однажды жили в лесу: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-11",
+      "category": "secrets",
+      "title": "Вы умеете читать по губам",
+      "description": "Вы умеете читать по губам: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-12",
+      "category": "secrets",
+      "title": "Вы потеряли важный ключ",
+      "description": "Вы потеряли важный ключ: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-13",
+      "category": "secrets",
+      "title": "Вы знакомы с начальником убежища",
+      "description": "Вы знакомы с начальником убежища: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-14",
+      "category": "secrets",
+      "title": "Вы подменили чужую сумку",
+      "description": "Вы подменили чужую сумку: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-15",
+      "category": "secrets",
+      "title": "Вы не спали трое суток",
+      "description": "Вы не спали трое суток: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-16",
+      "category": "secrets",
+      "title": "Вы знаете старый пароль",
+      "description": "Вы знаете старый пароль: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-17",
+      "category": "secrets",
+      "title": "Вы взяли чужое имя",
+      "description": "Вы взяли чужое имя: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-18",
+      "category": "secrets",
+      "title": "Вы слышали второй сигнал",
+      "description": "Вы слышали второй сигнал: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-19",
+      "category": "secrets",
+      "title": "Вы обещали вернуться за кем-то",
+      "description": "Вы обещали вернуться за кем-то: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    },
+    {
+      "id": "secrets-20",
+      "category": "secrets",
+      "title": "Вы скрываете хорошую новость",
+      "description": "Вы скрываете хорошую новость: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "secrets"
+      ]
+    }
+  ],
+  "disasters": [
+    {
+      "id": "disasters-01",
+      "category": "disasters",
+      "title": "Зомби-апокалипсис",
+      "description": "Зомби-апокалипсис: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-02",
+      "category": "disasters",
+      "title": "Кислород заканчивается",
+      "description": "Кислород заканчивается: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-03",
+      "category": "disasters",
+      "title": "Ядерная зима",
+      "description": "Ядерная зима: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-04",
+      "category": "disasters",
+      "title": "Восстание бытовой техники",
+      "description": "Восстание бытовой техники: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-05",
+      "category": "disasters",
+      "title": "Инопланетный сигнал",
+      "description": "Инопланетный сигнал: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-06",
+      "category": "disasters",
+      "title": "Затопление убежища",
+      "description": "Затопление убежища: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-07",
+      "category": "disasters",
+      "title": "Эпидемия",
+      "description": "Эпидемия: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-08",
+      "category": "disasters",
+      "title": "Отказ генератора",
+      "description": "Отказ генератора: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-09",
+      "category": "disasters",
+      "title": "Последняя банка еды",
+      "description": "Последняя банка еды: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-10",
+      "category": "disasters",
+      "title": "Неизвестный стук в дверь",
+      "description": "Неизвестный стук в дверь: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-11",
+      "category": "disasters",
+      "title": "Пыльная буря",
+      "description": "Пыльная буря: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-12",
+      "category": "disasters",
+      "title": "Рой дронов",
+      "description": "Рой дронов: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-13",
+      "category": "disasters",
+      "title": "Кислотный дождь",
+      "description": "Кислотный дождь: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-14",
+      "category": "disasters",
+      "title": "Обвал тоннеля",
+      "description": "Обвал тоннеля: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-15",
+      "category": "disasters",
+      "title": "Массовое отключение связи",
+      "description": "Массовое отключение связи: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    },
+    {
+      "id": "disasters-16",
+      "category": "disasters",
+      "title": "Пробуждение вулкана",
+      "description": "Пробуждение вулкана: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "disasters"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "roles-01",
+      "category": "roles",
+      "title": "Выживший",
+      "description": "Выживший: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "roles"
+      ]
+    },
+    {
+      "id": "roles-02",
+      "category": "roles",
+      "title": "Саботажник",
+      "description": "Саботажник: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "roles"
+      ]
+    },
+    {
+      "id": "roles-03",
+      "category": "roles",
+      "title": "Агент хаоса",
+      "description": "Агент хаоса: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "roles"
+      ]
+    },
+    {
+      "id": "roles-04",
+      "category": "roles",
+      "title": "Тайный спасатель",
+      "description": "Тайный спасатель: пригодится в кризисе, хотя сам обладатель пока не уверен, в каком именно.",
+      "tags": [
+        "roles"
+      ]
+    }
+  ]
+}

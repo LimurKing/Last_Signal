@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {cleanText,validSettings,validRoomCode} from '../src/validation.js';
+test('валидация настроек комнаты и текстов',()=>{assert.equal(cleanText('  Аня  '),'Аня');assert.equal(cleanText('<script>'),'script');assert.equal(validSettings({maxPlayers:6,roundSeconds:90,mode:'standard',isPublic:true}),true);assert.equal(validSettings({maxPlayers:5,roundSeconds:90,mode:'standard',isPublic:true}),false);assert.equal(validRoomCode('ABCDE'),true);assert.equal(validRoomCode('abc'),false);});

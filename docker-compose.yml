@@ -1,0 +1,9 @@
+services:
+  last-signal:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
+      RECONNECT_GRACE_MS: 120000
+    restart: unless-stopped

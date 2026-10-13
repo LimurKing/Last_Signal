@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {RoomManager} from '../src/roomManager.js';
+test('коды активных комнат уникальны и комнаты удаляются',()=>{const m=new RoomManager();const a=m.create({isPublic:true,maxPlayers:6}),b=m.create({isPublic:true,maxPlayers:6});assert.notEqual(a.code,b.code);assert.equal(m.publicList().length,2);assert.equal(m.remove(a.code),true);assert.equal(m.get(a.code),undefined);});
