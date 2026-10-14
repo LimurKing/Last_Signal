@@ -21,6 +21,7 @@ app.disable('x-powered-by');
 app.use(helmet({contentSecurityPolicy:{directives:{defaultSrc:["'self'"],scriptSrc:["'self'","https://cdn.socket.io"],styleSrc:["'self'","'unsafe-inline'"],connectSrc:["'self'","ws:","wss:"],imgSrc:["'self'","data:"]}}}));
 app.use(rateLimit({windowMs:60000,limit:180,standardHeaders:true,legacyHeaders:false}));
 app.get('/health',(_req,res)=>res.json({status:'ok'}));
+app.use('/docs',express.static(path.join(__dirname,'docs')));
 app.use(express.static(path.join(__dirname,'public')));
 app.get('*',(_req,res)=>res.sendFile(path.join(__dirname,'public/index.html')));
 const server=http.createServer(app);
