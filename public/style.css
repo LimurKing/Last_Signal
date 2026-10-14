@@ -276,6 +276,8 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--amber); outline
 .room-row:hover { border-color: #9c6c48; background: #302c25; }
 .room-row b { color: var(--amber); font: 700 12px Consolas, monospace; letter-spacing: .08em; }
 .room-row span { color: var(--muted); font-size: 11px; }
+.fullscreen-toggle { display: none; }
+.room-actions { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
 footer { padding: 19px 15px; border-top: 1px solid #ffffff12; color: #716f65; text-align: center; }
 
 @media (min-width: 1200px) {
@@ -307,6 +309,67 @@ footer { padding: 19px 15px; border-top: 1px solid #ffffff12; color: #716f65; te
   .room-head .secondary { min-height: 40px; padding: 9px; font-size: 11px; }
   .chat #chat-form { display: block; }
   .chat #chat-form .primary { width: 100%; margin-top: 3px; }
+}
+@keyframes card-arrive {
+  from { opacity: 0; transform: translateY(7px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.card { animation: card-arrive .24s ease-out both; }
+.quip { color: #efbd70 !important; font-size: 12px !important; font-style: italic; }
+@media (max-width: 760px) {
+  body.in-game { min-height: 100dvh; }
+  body.in-game > header, body.in-game > footer, body.in-game .hero { display: none; }
+  body.in-game main {
+    display: block;
+    width: 100%;
+    min-height: 100dvh;
+    padding: env(safe-area-inset-top) 10px env(safe-area-inset-bottom);
+  }
+  body.in-game #view { width: 100%; padding-bottom: 12px; }
+  body.in-game #view > .panel:first-child {
+    position: sticky;
+    z-index: 5;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 -10px 9px;
+    padding: 6px 10px;
+    border: 0;
+    border-bottom: 1px solid #ffffff18;
+    border-radius: 0;
+    background: #141512ed;
+    backdrop-filter: blur(12px);
+  }
+  body.in-game #view > .panel:first-child::before,
+  body.in-game #view > .panel:first-child .room-head,
+  body.in-game #view > .panel:first-child > p,
+  body.in-game #view > .panel:first-child .players { display: none; }
+  body.in-game #view > .panel:first-child .room-actions { gap: 7px; }
+  body.in-game #view > .panel:first-child #leave,
+  body.in-game #view > .panel:first-child .fullscreen-toggle { min-height: 38px; padding: 7px 10px; font-size: 11px; }
+  body.in-game #view > .panel:first-child .fullscreen-toggle { display: inline-flex; align-items: center; }
+  body.in-game .disaster { margin-bottom: 10px; padding: 15px 14px; }
+  body.in-game .panel { padding: 15px 13px; }
+  body.in-game .player-profile { padding: 12px 0; }
+  body.in-game .player-profile > h3 { margin-top: 4px; }
+  body.in-game .cards { grid-template-columns: 1fr; }
+  body.in-game .reveal-action,
+  body.in-game #vote-form {
+    position: sticky;
+    z-index: 4;
+    bottom: env(safe-area-inset-bottom);
+    margin: 10px 0;
+    padding: 10px 12px;
+    border: 1px solid #62503a;
+    border-radius: 6px;
+    background: #181915f2;
+    box-shadow: 0 0 24px #0008;
+    backdrop-filter: blur(12px);
+  }
+  body.in-game .reveal-action p { margin: 0 0 7px; font-size: 12px; }
+  body.in-game .reveal-action .primary,
+  body.in-game #vote-form .primary { width: 100%; min-height: 46px; }
+  body.in-game .chat #chat-lines { height: min(24dvh, 190px); }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
