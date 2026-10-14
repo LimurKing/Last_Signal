@@ -458,3 +458,29 @@ footer { border-top-color: #81d7df20; color: #718b9a; }
   .brand img { width: 37px; height: 37px; }
   .panel { border-radius: 15px; }
 }
+/* Keep the page flow top to bottom on wide screens too. */
+@media (min-width: 761px) {
+  main#app {
+    display: flex;
+    width: min(1040px, 100%);
+    flex-direction: column;
+    gap: 30px;
+    padding: 38px 28px 72px;
+  }
+  .hero {
+    position: static;
+    width: 100%;
+    padding: 8px 0 0;
+  }
+  .hero h1 { max-width: 850px; }
+  .hero p { max-width: 650px; }
+  .view { width: 100%; }
+}
+body.in-game .hero { display: none; }
+@media (min-width: 761px) {
+  body.in-game main#app {
+    display: block;
+    width: min(1000px, 100%);
+    padding-top: 18px;
+  }
+}
