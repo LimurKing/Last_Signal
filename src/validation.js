@@ -4,7 +4,7 @@ export function cleanText(value, min = 1, max = 32) {
   return text.length >= min && text.length <= max ? text : null;
 }
 export function validSettings(s) {
-  return s && Number.isInteger(s.maxPlayers) && s.maxPlayers >= 6 && s.maxPlayers <= 12 &&
+  return s && Number.isInteger(s.maxPlayers) && (s.maxPlayers === 3 || s.maxPlayers >= 6 && s.maxPlayers <= 12) &&
     Number.isInteger(s.roundSeconds) && s.roundSeconds >= 30 && s.roundSeconds <= 600 &&
     ['standard','hidden'].includes(s.mode) && typeof s.isPublic === 'boolean';
 }

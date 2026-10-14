@@ -1,5 +1,5 @@
 export const PHASES = ['PROFESSION_REVEAL','SKILL_REVEAL','BAGGAGE_REVEAL','PERSONALITY_AND_SECRET_REVEAL','DISCUSSION','ELIMINATION_VOTE','TIEBREAK_VOTE','FINAL_CAPSULE_VOTE','RESULTS'];
-export function capsuleSeats(count) { return count <= 8 ? 4 : 5; }
+export function capsuleSeats(count) { return count === 3 ? 2 : count <= 8 ? 4 : 5; }
 export function countVotes(votes, candidates) {
   const counts = Object.fromEntries(candidates.map(id => [id, 0]));
   for (const target of Object.values(votes)) if (target in counts) counts[target]++;
