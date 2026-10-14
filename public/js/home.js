@@ -10,7 +10,32 @@ function showRules(){
  $('#full-rules').onclick=async()=>{const content=$('#full-rules-content');if(content.hidden){if(!fullRulesText){const button=$('#full-rules');button.disabled=true;button.textContent='Загружаю правила…';try{const response=await fetch('/docs/GAME_RULES.md');if(!response.ok)throw Error();fullRulesText=await response.text();}catch{fullRulesText='Не удалось загрузить правила. Обновите страницу и попробуйте ещё раз.';}button.disabled=false;}content.textContent=fullRulesText;content.hidden=false;$('#full-rules').textContent='Скрыть полные правила';}else{content.hidden=true;$('#full-rules').textContent='Показать полные правила';}};
 }
 $('#rules-button').onclick=()=>{rulesOpen=!rulesOpen;$('#rules-button').textContent=rulesOpen?'Скрыть правила':'Правила игры';if(rulesOpen)showRules();else setView('');};
-function render(){if(!session?.code||!state)return;const me=state.players.find(p=>p.id===session.playerId);if(!me)return;const g=state.game;document.body.classList.toggle('in-game',!!g);const minPlayers=state.settings.maxPlayers===3?3:6;$('#view').innerHTML=`<div class="panel"><div class="room-head"><div><small>ВАШ КОД ДОСТУПА</small><h2>${escapeText(state.code)}</h2></div><button id="copy" class="secondary">Скопировать</button></div><p>${state.players.length}/${state.settings.maxPlayers} игроков · ${state.settings.mode==='hidden'?'С саботажником':'Обычная игра'} · ${state.settings.roundSeconds} сек.</p><div class="players">${state.players.map(p=>`<div class="player ${p.connected?'':'offline'}">${escapeText(p.name)} ${p.host?'★ Ведущий':''} ${p.alive===false?'· выбыл':''} ${me.host&&!g&&p.id!==me.id?`<button data-kick="${p.id}">Исключить</button>`:''}</div>`).join('')}</div>${g?gameHtml(g,me):`<p class="muted">Ожидание игроков. Начать можно, когда подключены минимум ${minPlayers}.</p>${me.host?'<button id="start" class="primary" '+(state.players.filter(p=>p.connected).length<minPlayers?'disabled':'')+'>Начать игру</button>':''}`}<div class="room-actions"><button id="fullscreen" class="secondary fullscreen-toggle" type="button">${document.fullscreenElement?'⛶ Выйти из полного экрана':'⛶ На весь экран'}</button><button id="leave" class="text-button">Покинуть комнату</button></div></div>${g?'<div class="panel chat"><h3>Общий чат</h3><div id="chat-lines"></div><form id="chat-form"><input name="message" maxlength="300" placeholder="Сообщение команде…" required><button class="primary">Отправить</button></form></div>':''}`;$('#copy').onclick=()=>navigator.clipboard?.writeText(state.code);$('#fullscreen')?.addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{flash('Полноэкранный режим недоступен в этом браузере.');}});$('#start')?.addEventListener('click',()=>socket.emit('host:start'));document.querySelectorAll('[data-kick]').forEach(b=>b.onclick=()=>socket.emit('host:kick',{playerId:b.dataset.kick}));$('#leave').onclick=()=>{socket.emit('room:leave');localStorage.removeItem('lastSignalSession');session=null;state=null;setView('');};$('#chat-form')?.addEventListener('submit',e=>{e.preventDefault();socket.emit('chat:send',{message:new FormData(e.currentTarget).get('message')});e.currentTarget.reset();});$('#vote-form')?.addEventListener('submit',e=>{e.preventDefault();socket.emit('game:vote',{targetId:new FormData(e.currentTarget).get('targetId')});});$('#reveal')?.addEventListener('click',()=>socket.emit('game:reveal'));}
+function render(){
+ if(!session?.code||!state)return;
+ const me=state.players.find(p=>p.id===session.playerId);
+ if(!me)return;
+ const g=state.game;
+ document.body.classList.toggle('in-game',!!g);
+ const minPlayers=state.settings.maxPlayers===3?3:6;
+ $('#view').innerHTML=`
+  <div class="panel room-panel">
+   <div class="room-head"><div><small>ВАШ КОД ДОСТУПА</small><h2>${escapeText(state.code)}</h2></div><button id="copy" class="secondary">Скопировать</button></div>
+   <p>${state.players.length}/${state.settings.maxPlayers} игроков · ${state.settings.mode==='hidden'?'С саботажником':'Обычная игра'} · ${state.settings.roundSeconds} сек.</p>
+   <div class="players">${state.players.map(p=>`<div class="player ${p.connected?'':'offline'}">${escapeText(p.name)} ${p.host?'★ Ведущий':''} ${p.alive===false?'· выбыл':''} ${me.host&&!g&&p.id!==me.id?`<button data-kick="${p.id}">Исключить</button>`:''}</div>`).join('')}</div>
+   ${g?'':`<p class="muted">Ожидание игроков. Начать можно, когда подключены минимум ${minPlayers}.</p>${me.host?'<button id="start" class="primary" '+(state.players.filter(p=>p.connected).length<minPlayers?'disabled':'')+'>Начать игру</button>':''}`}
+   <div class="room-actions"><button id="fullscreen" class="secondary fullscreen-toggle" type="button">${document.fullscreenElement?'⛶ Выйти из полного экрана':'⛶ На весь экран'}</button><button id="leave" class="text-button">Покинуть комнату</button></div>
+  </div>
+  ${g?gameHtml(g,me):''}
+  ${g?'<div class="panel chat"><h3>Общий чат</h3><div id="chat-lines"></div><form id="chat-form"><input name="message" maxlength="300" placeholder="Сообщение команде…" required><button class="primary">Отправить</button></form></div>':''}`;
+ $('#copy').onclick=()=>navigator.clipboard?.writeText(state.code);
+ $('#fullscreen')?.addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{flash('Полноэкранный режим недоступен в этом браузере.');}});
+ $('#start')?.addEventListener('click',()=>socket.emit('host:start'));
+ document.querySelectorAll('[data-kick]').forEach(b=>b.onclick=()=>socket.emit('host:kick',{playerId:b.dataset.kick}));
+ $('#leave').onclick=()=>{socket.emit('room:leave');localStorage.removeItem('lastSignalSession');session=null;state=null;setView('');};
+ $('#chat-form')?.addEventListener('submit',e=>{e.preventDefault();socket.emit('chat:send',{message:new FormData(e.currentTarget).get('message')});e.currentTarget.reset();});
+ $('#vote-form')?.addEventListener('submit',e=>{e.preventDefault();socket.emit('game:vote',{targetId:new FormData(e.currentTarget).get('targetId')});});
+ $('#reveal')?.addEventListener('click',()=>socket.emit('game:reveal'));
+}
 function gameHtml(g,me){
  const alive=state.players.filter(p=>p.alive);
  const removed=Math.max(0,alive.length-g.disaster.seats);
